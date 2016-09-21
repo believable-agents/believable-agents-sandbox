@@ -1,1 +1,1 @@
-﻿ProjectVersion = "1.0.0"
+ProjectVersion = "0.0.0"
