@@ -25,6 +25,14 @@ You need to install several programs before you use this project.
 
 ## Collaboration Instructions
 
+### Version control
+
+All projects are setup with git and LFS. 
+
+Please check out these cool tutorials on how to start with Git.
+
+* [https://www.atlassian.com/git/](https://www.atlassian.com/git/)
+
 ### Unity
 
 Always use the proposed version of Unity. Never, upgrade unity at your own will. This needs to be a team decision and will be properly documented. After every Unity upgrade a new version will be built and released.
