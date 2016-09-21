@@ -32,6 +32,7 @@ All projects are setup with git and LFS.
 Please check out these cool tutorials on how to start with Git.
 
 * [https://www.atlassian.com/git/](https://www.atlassian.com/git/)
+* [Free Github e-book (you need to register for some crap)](https://www.syncfusion.com/resources/techportal/ebooks/GitHub_Succinctly?utm_medium=BizDev-Axosoft0916&_hsenc=p2ANqtz-_kysN7lDvHPPgGGGTl-CMzMvxaF0wXLeDCmTUQwb7dy3zBYx1a46geKz20aUobk8n0G8pPwbM_4_O4pkInVN-UZn2tSg&_hsmi=34051517&hsCtaTracking=7e98270f-44dc-49ae-8eb5-d626a7b443de%7Cb4ec42ce-2896-42b8-b01e-8c4870d2ed05)
 
 ### Unity
 
