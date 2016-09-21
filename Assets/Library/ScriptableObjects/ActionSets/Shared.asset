@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3cc4bb3ada7545a59e126c7aeef5a93, type: 3}
+  m_Name: Shared
+  m_EditorClassIdentifier: 
+  actions:
+  - sensor: 1
+    sensorRequest: Sleep
+    constraint: 
+    action: 
+    runForever: 0
+    waitToFinish: 1
+    BT: {fileID: 11400000, guid: 533ffd0da434c454fa5ca5e8aa334af4, type: 2}
+  - sensor: 1
+    sensorRequest: Eat
+    constraint: 
+    action: 
+    runForever: 0
+    waitToFinish: 1
+    BT: {fileID: 11400000, guid: b76a54d084200b34282ffd396d94b4ff, type: 2}
