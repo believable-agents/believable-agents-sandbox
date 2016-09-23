@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a686a47eee2fa44cb0a34b5d86e4d5e, type: 3}
   m_Name: Sleep
   m_EditorClassIdentifier: 
-  _serializedGraph: '{"version":2.3,"type":"NodeCanvas.BehaviourTrees.BehaviourTree","name":"BehaviourTree","comments":"","nodes":[{"_action":{"log":{"_value":"Sleep"},"$type":"NodeCanvas.Tasks.Actions.DebugLogText"},"_position":{"x":5347.0,"y":5179.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"2"}],"connections":[],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
+  _serializedGraph: '{"version":2.3,"type":"NodeCanvas.BehaviourTrees.BehaviourTree","name":"Sleep","comments":"","nodes":[{"_action":{"actions":[{"log":{"_value":"Sleep"},"$type":"NodeCanvas.Tasks.Actions.DebugLogText"},{"value":{"_value":100.0},"modifier":"Energy","$type":"ViAgents.Unity.SetPhysiology"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5462.0,"y":5234.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"2"}],"connections":[],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
     Blackboard","_variables":{}}}'
   _objectReferences: []
   _deserializationFailed: 0

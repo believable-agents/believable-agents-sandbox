@@ -8,21 +8,32 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3cc4bb3ada7545a59e126c7aeef5a93, type: 3}
+  m_Script: {fileID: 11500000, guid: 68fd8d1c9bf130c428f52dcf8fd7f0c7, type: 3}
   m_Name: Shared
   m_EditorClassIdentifier: 
   actions:
   - sensor: 1
-    sensorRequest: Sleep
-    constraint: 
-    action: 
+    sensorRequest: sleep
+    waitToFinish: 0
     runForever: 0
-    waitToFinish: 1
     BT: {fileID: 11400000, guid: 533ffd0da434c454fa5ca5e8aa334af4, type: 2}
   - sensor: 1
-    sensorRequest: Eat
-    constraint: 
-    action: 
+    sensorRequest: eat
+    waitToFinish: 0
     runForever: 0
-    waitToFinish: 1
     BT: {fileID: 11400000, guid: b76a54d084200b34282ffd396d94b4ff, type: 2}
+  - sensor: 0
+    sensorRequest: hungry
+    waitToFinish: 0
+    runForever: 0
+    BT: {fileID: 11400000, guid: b76a54d084200b34282ffd396d94b4ff, type: 2}
+  - sensor: 0
+    sensorRequest: thirsty
+    waitToFinish: 0
+    runForever: 0
+    BT: {fileID: 11400000, guid: 514c125549c3c7a44b8db2e12d3ab747, type: 2}
+  - sensor: 0
+    sensorRequest: tired
+    waitToFinish: 0
+    runForever: 0
+    BT: {fileID: 11400000, guid: 533ffd0da434c454fa5ca5e8aa334af4, type: 2}
