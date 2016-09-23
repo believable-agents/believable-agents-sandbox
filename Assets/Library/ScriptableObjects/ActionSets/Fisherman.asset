@@ -17,3 +17,13 @@ MonoBehaviour:
     waitToFinish: 0
     runForever: 0
     BT: {fileID: 11400000, guid: 1834d53cf44fab54bb404dbce731597a, type: 2}
+  - sensor: 2
+    sensorRequest: Player
+    waitToFinish: 0
+    runForever: 0
+    BT: {fileID: 0}
+  - sensor: 4
+    sensorRequest: Player
+    waitToFinish: 0
+    runForever: 0
+    BT: {fileID: 0}
